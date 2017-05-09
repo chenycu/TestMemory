@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_down_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/iv_down_game_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tv_down_index"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_down_game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/iv_down_game_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_alignTop="@id/iv_down_game_icon"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_down_game_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tv_down_game_name"
+        android:layout_alignLeft="@id/tv_down_game_name"
+        android:textSize="11sp"/>
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_down"-->
+    <!--android:layout_width="75dp"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:text="@string/download"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="12sp"-->
+    <!--android:background="@drawable/btn_download_mini"/>-->
+
+</RelativeLayout>

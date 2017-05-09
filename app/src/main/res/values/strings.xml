@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestMemory</string>
+    <!--RecycleView footer-->
+    <string name="list_footer_loading">Loading…</string>
+    <string name="list_footer_network_error">Touch to reload</string>
+    <string name="list_footer_end">End</string>
+</resources>
